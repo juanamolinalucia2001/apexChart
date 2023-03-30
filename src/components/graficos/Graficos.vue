@@ -44,8 +44,8 @@ export default {
     return {
       tabIndex: 0,
       tabs: [
-        { name: 'Línea', component: 'Linea', icon: 'mdi-chart-line' },
-        { name: 'Porcentaje', component: 'Torta', icon: 'mdi-chart-pie' },
+        { name: 'Liquidaciones por año', component: 'Linea', icon: 'mdi-chart-line' },
+        { name: 'Liquidaciones anuales en %', component: 'Torta', icon: 'mdi-chart-pie' },
         { name: 'Gastos y Ganancias', component: 'Bar', icon: 'mdi-chart-bar' },
         { name: 'Total Gastos Ganancias', component: 'Variacion', icon: 'mdi-chart-multiline' },
       ],
